@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Animal Kingdom</string>
+    <string name="enterName">Enter your name...</string>
+    <string name="startGame">Start Game!</string>
+    <string name="howToPlay">How to Play?</string>
+    <string name="animalKingdom">Animal Kingdom</string>
+    <string name="score">Score:</string>
+    <string name="recordlist">Record List:</string>
+    <string name="recordname">Name:</string>
+    <string name="recordsocre">Score:</string>
+    <string name="GO">GO!</string>
+    <string name="Question">Question:</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Next">Next</string>
+    <string name="Finish">Finish</string>
+    <string name="RememberMe">Remember me </string>
+    <string name="Score">Score:</string>
+    <string name="Alligator">Alligator</string>
+    <string name="Zebra">Zebra</string>
+    <string name="Dog">Dog</string>
+    <string name="Cat">Cat</string>
+    <string name="Eagle">Eagle</string>
+    <string name="Snake">Snake</string>
+    <string name="Gorilla">Gorilla</string>
+    <string name="Monkey">Monkey</string>
+    <string name="Horse">Horse</string>
+    <string name="Elephant">Elephant</string>
+    <string name="Lion">Lion</string>
+    <string name="Deer">Deer</string>
+    <string name="Tiger">Tiger</string>
+    <string name="Pigeon">Pigeon</string>
+    <string name="Goat">Goat</string>
+    <string name="Chicken">Chicken</string>
+    <string name="Donkey">Donkey</string>
+
+
+
+</resources>

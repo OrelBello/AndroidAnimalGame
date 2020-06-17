@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:background="@drawable/background_2" >
+
+    <TextView
+        android:id="@+id/AnimalKingdomLogoEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/animalKingdom"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        android:gravity="center"
+         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+          />
+
+    <EditText
+        android:id="@+id/EnterNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:autofillHints=""
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/AnimalKingdomLogoEditText"
+        android:hint="@string/enterName"
+        android:inputType="text"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_0"
+        android:text="@string/startGame"
+        android:textColor="#FFFFFF"
+        android:onClick="startGameButtonClick"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/EnterNameEditText"
+        android:layout_marginTop="250dp"
+
+         >
+
+    </Button>
+
+<!--    <Button-->
+<!--        android:id="@+id/howToPlayButton"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:background="@drawable/button_0"-->
+<!--        android:text="@string/howToPlay"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:onClick="howToPlayClick"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_alignTop="@id/startGameButton"-->
+<!--        android:layout_centerHorizontal="true" />-->
+
+</RelativeLayout>
